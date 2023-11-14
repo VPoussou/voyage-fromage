@@ -4,8 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Travel Agency</title>
-	
-
+	<script src="index.js"></script>
 	<!-- Link to Bootstrap CSS via CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 
@@ -96,6 +95,10 @@
       cursor: pointer; /* Change the cursor to a pointer to indicate it's clickable */
     }
 
+    .desc {
+        display: none;
+    }
+
 
 
     </style>
@@ -117,36 +120,48 @@
 
      <div class="card-container">
         <!-- Card 1 -->
-        <div class="card clickable-div" onclick="handleClick()">                                             
+        <div class="card clickable-div">                                             
             <img src="images/image1.jpeg" alt="Image 1">
             <div class="card-body">
                 <h5 class="card-title">Cantin Paris</h5>
             </div>
+            <div class="desc">
+                Lorem Ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
         </div>
 
         <!-- Card 2 -->
-        <div class="card clickable-div" onclick="handleClick()">
+        <div class="card clickable-div" >
             <img src="images/image2.jpeg" alt="Image 2">
             <div class="card-body">
                 <h5 class="card-title">Gillot</h5>
+            </div>
+            <div class="desc">
+                Lorem Ipsum dolor sit amet, consectetur adipiscing elit.
             </div>
         </div>
 
         <!-- Repeat similar structure for Card 3 and Card 4 -->
 
         <!-- Card 3 -->
-        <div class="card clickable-div" onclick="handleClick()">
+        <div class="card clickable-div" >
             <img src="images/image3.jpeg" alt="Image 3">
             <div class="card-body">
                 <h5 class="card-title">Camembert de Normandie</h5>
             </div>
+            <div class="desc">
+                Lorem Ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
         </div>
 
         <!-- Card 4 -->
-        <div class="card clickable-div" onclick="handleClick()">
+        <div class="card clickable-div" >
             <img src="images/image4.jpeg" alt="Image 4">
             <div class="card-body">
                 <h5 class="card-title">Marie Harel</h5>
+            </div>
+            <div class="desc">
+                Lorem Ipsum dolor sit amet, consectetur adipiscing elit.
             </div>
         </div>
 
@@ -154,19 +169,25 @@
 
         <!-- Card 5 -->
 
-            <div class="card clickable-div" onclick="handleClick()">                                             
+            <div class="card clickable-div" >                                             
             <img src="images/image5.jpeg" alt="Image 5">
             <div class="card-body">
                 <h5 class="card-title">Androuet</h5>
+            </div>
+            <div class="desc">
+                Lorem Ipsum dolor sit amet, consectetur adipiscing elit.
             </div>
         </div>
 
         <!-- Card 6 -->
 
-        <div class="card clickable-div" onclick="handleClick()">
+        <div class="card clickable-div" >
             <img src="images/image6.jpeg" alt="Image 6">
             <div class="card-body">
                 <h5 class="card-title">Au lait cru</h5>
+            </div>
+            <div class="desc">
+                Lorem Ipsum dolor sit amet, consectetur adipiscing elit.
             </div>
         </div>
 
@@ -174,38 +195,32 @@
 
         <!-- Card 7 -->
 
-        <div class="card clickable-div" onclick="handleClick()">
+        <div class="card clickable-div" >
             <img src="images/image7.jpeg" alt="Image 7">
             <div class="card-body">
                 <h5 class="card-title">Moulin de carel</h5>
+            </div>
+            <div class="desc">
+                Lorem Ipsum dolor sit amet, consectetur adipiscing elit.
             </div>
         </div>
 
         <!-- Card 8 -->
 
-        <div class="card clickable-div" onclick="handleClick()">
+        <div class="card clickable-div" >
             <img src="images/image8.jpeg" alt="Image 8">
             <div class="card-body">
                 <h5 class="card-title">Gourmet</h5>
+            </div>
+            <div class="desc">
+                Lorem Ipsum dolor sit amet, consectetur adipiscing elit.
             </div>
         </div>
 
 
     </div>
 
-
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-  // JavaScript function to be executed when the div is clicked
-  function handleClick() {
-    alert('Div clicked!');
-    // Add more code here to handle the click event as needed
-  }
-</script>
 </body>
 </html>
 
